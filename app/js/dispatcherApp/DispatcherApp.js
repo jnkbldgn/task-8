@@ -1,5 +1,5 @@
 import { Dispatcher } from '../../../lib/flux-light/flux-light';
-import appStore from '../AppStore/AppStore';
+import appStore from '../appStore/AppStore';
 
 const dispatcherApp = new Dispatcher();
 

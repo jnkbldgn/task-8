@@ -1,5 +1,5 @@
 import ViewApp from './ViewApp/ViewApp';
-import appStore from './AppStore/AppStore';
+import appStore from './appStore/AppStore';
 
 const app = new ViewApp(appStore);
 
