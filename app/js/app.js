@@ -1,7 +1,6 @@
 import ViewApp from './ViewApp/ViewApp';
-import AppLogs from './modelsApp/AppLogs';
-import AppResponse from './modelsApp/AppResponse';
+import appStore from './AppStore/AppStore';
 
-const app = new ViewApp(AppResponse, AppLogs);
+const app = new ViewApp(appStore);
 
 app.init();
